@@ -1,8 +1,0 @@
-
-Processing /home/daniel/GitHub/X17_ATOMKI_simulation/logs/make_root_plots_driver.C...
-[plot_angles_ROOT] Read 10000 rows from data/data_pair_creation.txt
-Info in <TCanvas::Print>: pdf file plots/thetaee_distribution_ROOT.pdf has been created
-Info in <TCanvas::Print>: pdf file plots/angular_distributions_ROOT.pdf has been created
-[plot_angles_ROOT] Saved:
-  plots/thetaee_distribution_ROOT.pdf
-  plots/angular_distributions_ROOT.pdf
