@@ -1,0 +1,45 @@
+
+Processing /home/daniel/GitHub/X17_ATOMKI_simulation/logs/run_analysis_driver.C...
+In file included from input_line_9:1:
+/home/daniel/GitHub/X17_ATOMKI_simulation/scripts/analyze_X17.C:45:16: warning: use of infinity is undefined behavior due to the currently enabled floating-point options [-Wnan-infinity-disabled]
+        return std::isfinite(x) && std::fabs(x) < 1.0e20;
+               ^~~~~~~~~~~~~~~~
+
+[analyze_x17] Input file: x17_output.root
+[analyze_x17] Detector effects: pitch=3 mm, sigma_E/E=5 %, threshold=1e-06 MeV
+
+[analyze_x17] Cutflow
+  Generated events        : 10000
+  Ideal reconstructed     : 10000
+  e- silicon hit          : 4682
+  e+ silicon hit          : 4587
+  Geometrical pair        : 1730
+  Detector-effect pair    : 1440
+  Geometrical acceptance  : 17.3 %
+  Detector acceptance     : 14.4 %
+Info in <TCanvas::Print>: pdf file plots/thetaee_gen_all.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/thetaee_generated_ideal_geometry_detector.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/thetaee_gen_reco.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/thetaee_ideal_resolution.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/thetaee_detector_resolution.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/thetaee_resolution_comparison.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/thetaee_resolution.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/thetaee_ideal_reco_vs_gen.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/thetaee_detector_reco_vs_gen.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/thetaee_reco_vs_gen.pdf has been created
+Warning in <TH1D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1D::Sumw2>: Sum of squares of weights structure already created
+Warning in <TH1D::Sumw2>: Sum of squares of weights structure already created
+Info in <TCanvas::Print>: pdf file plots/acceptance_ideal_geometry_detector_vs_thetaee.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/acceptance_vs_thetaee.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/cutflow.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/scint_energy_em_ep.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/scint_energy_sum.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/scint_energy_asymmetry.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/thetaee_vs_Esum_reco.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/thetaee_vs_Y_reco.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/hit_detector_occupancy.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/hit_volume_breakdown.pdf has been created
+
+[analyze_x17] Wrote ROOT file: x17_analysis.root
+[analyze_x17] Wrote PDFs in: plots

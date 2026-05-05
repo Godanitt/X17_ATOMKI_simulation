@@ -1,0 +1,3 @@
+# Macro batch, sin necesidad de tocar la ventana gráfica
+/run/initialize
+/run/beamOn 10000
