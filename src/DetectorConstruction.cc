@@ -132,14 +132,26 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     {
         const G4double phi = i * 360.0 * deg / nDet;
 
+        const G4double xs = 1.1* scintRadius * std::cos(phi);
+        const G4double ys = 1.1* scintRadius * std::sin(phi);
+
+        const G4double xi = 1.1* siliconRadius * std::cos(phi);
+        const G4double yi = 1.1* siliconRadius * std::sin(phi);
+
+
+        G4double rotZ = 0.0;
+
+        // Ajuste manual para formar un hexágono limpio
+        if (i == 0) rotZ =   0.0 * deg;    // derecha
+        if (i == 1) rotZ = 120.0 * deg;    // arriba-derecha
+        if (i == 2) rotZ =  60.0 * deg;    // arriba-izquierda
+        if (i == 3) rotZ =   0.0 * deg;    // izquierda
+        if (i == 4) rotZ = 120.0 * deg;    // abajo-izquierda
+        if (i == 5) rotZ =  60.0 * deg;    // abajo-derecha
+
         auto* rot = new G4RotationMatrix();
-        rot->rotateZ(phi);
+        rot->rotateZ(rotZ);
 
-        const G4double xs = scintRadius * std::cos(phi);
-        const G4double ys = scintRadius * std::sin(phi);
-
-        const G4double xi = siliconRadius * std::cos(phi);
-        const G4double yi = siliconRadius * std::sin(phi);
 
         new G4PVPlacement(rot,
                           G4ThreeVector(xi, yi, 0.0),

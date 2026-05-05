@@ -18,6 +18,7 @@ add_executable(x17sim
     src/RunAction.cc
     src/EventAction.cc
     src/SteppingAction.cc
+    src/PhysicsList.cc
 )
 
 target_include_directories(x17sim PRIVATE
