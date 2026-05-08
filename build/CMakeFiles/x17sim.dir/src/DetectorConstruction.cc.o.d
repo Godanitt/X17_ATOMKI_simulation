@@ -2,9 +2,7 @@ CMakeFiles/x17sim.dir/src/DetectorConstruction.cc.o: \
  /home/daniel/GitHub/X17_ATOMKI_simulation/src/DetectorConstruction.cc \
  /usr/include/stdc-predef.h \
  /home/daniel/GitHub/X17_ATOMKI_simulation/include/DetectorConstruction.hh \
- /home/daniel/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
- /home/daniel/geant4-install/include/Geant4/globals.hh \
- /home/daniel/geant4-install/include/Geant4/G4ios.hh \
+ /home/daniel/geant4-install/include/Geant4/G4String.hh \
  /home/daniel/geant4-install/include/Geant4/G4Types.hh \
  /home/daniel/geant4-install/include/Geant4/G4GlobalConfig.hh \
  /usr/include/c++/13/complex \
@@ -189,19 +187,22 @@ CMakeFiles/x17sim.dir/src/DetectorConstruction.cc.o: \
  /usr/include/c++/13/bits/istream.tcc \
  /usr/include/c++/13/bits/sstream.tcc \
  /home/daniel/geant4-install/include/Geant4/tls.hh \
- /usr/include/c++/13/iostream /usr/include/c++/13/algorithm \
- /usr/include/c++/13/bits/stl_algo.h \
+ /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
  /usr/include/c++/13/bits/stl_heap.h \
  /usr/include/c++/13/bits/uniform_int_dist.h \
  /usr/include/c++/13/bits/stl_tempbuf.h \
  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
- /usr/include/c++/13/pstl/execution_defs.h \
- /home/daniel/geant4-install/include/Geant4/G4String.hh \
- /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
+ /usr/include/c++/13/pstl/execution_defs.h /usr/include/c++/13/cstring \
+ /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+ /usr/include/c++/13/iostream \
  /home/daniel/geant4-install/include/Geant4/G4String.icc \
+ /home/daniel/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
+ /home/daniel/geant4-install/include/Geant4/globals.hh \
+ /home/daniel/geant4-install/include/Geant4/G4ios.hh \
+ /home/daniel/geant4-install/include/Geant4/G4String.hh \
  /home/daniel/geant4-install/include/Geant4/templates.hh \
  /usr/include/c++/13/climits \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
@@ -285,8 +286,24 @@ CMakeFiles/x17sim.dir/src/DetectorConstruction.cc.o: \
  /home/daniel/geant4-install/include/Geant4/G4Visible.hh \
  /home/daniel/geant4-install/include/Geant4/G4Visible.icc \
  /home/daniel/geant4-install/include/Geant4/G4Box.icc \
- /home/daniel/geant4-install/include/Geant4/G4Tubs.hh \
- /home/daniel/geant4-install/include/Geant4/G4Tubs.icc \
+ /home/daniel/geant4-install/include/Geant4/G4Colour.hh \
+ /home/daniel/geant4-install/include/Geant4/G4Exception.hh \
+ /home/daniel/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
+ /home/daniel/geant4-install/include/Geant4/G4GenericMessenger.hh \
+ /home/daniel/geant4-install/include/Geant4/G4AnyMethod.hh \
+ /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
+ /usr/include/c++/13/unordered_map \
+ /usr/include/c++/13/bits/unordered_map.h \
+ /usr/include/c++/13/bits/hashtable.h \
+ /usr/include/c++/13/bits/hashtable_policy.h \
+ /usr/include/c++/13/bits/enable_special_members.h \
+ /usr/include/c++/13/array /usr/include/c++/13/compare \
+ /home/daniel/geant4-install/include/Geant4/G4AnyType.hh \
+ /home/daniel/geant4-install/include/Geant4/G4UIcommand.hh \
+ /home/daniel/geant4-install/include/Geant4/G4ApplicationState.hh \
+ /home/daniel/geant4-install/include/Geant4/G4UIparameter.hh \
+ /home/daniel/geant4-install/include/Geant4/G4UImessenger.hh \
+ /home/daniel/geant4-install/include/Geant4/G4UIdirectory.hh \
  /home/daniel/geant4-install/include/Geant4/G4LogicalVolume.hh \
  /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
@@ -307,15 +324,13 @@ CMakeFiles/x17sim.dir/src/DetectorConstruction.cc.o: \
  /home/daniel/geant4-install/include/Geant4/G4Threading.hh \
  /usr/include/c++/13/chrono /usr/include/c++/13/condition_variable \
  /usr/include/c++/13/future /usr/include/c++/13/bits/atomic_futex.h \
- /usr/include/c++/13/atomic /usr/include/c++/13/bits/std_function.h \
- /usr/include/c++/13/bits/std_thread.h /usr/include/c++/13/thread \
- /usr/include/c++/13/bits/this_thread_sleep.h \
+ /usr/include/c++/13/atomic /usr/include/c++/13/bits/std_thread.h \
+ /usr/include/c++/13/thread /usr/include/c++/13/bits/this_thread_sleep.h \
  /home/daniel/geant4-install/include/Geant4/G4Region.icc \
  /home/daniel/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
  /home/daniel/geant4-install/include/Geant4/G4RotationMatrix.hh \
  /home/daniel/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
  /home/daniel/geant4-install/include/Geant4/G4LogicalVolume.icc \
- /home/daniel/geant4-install/include/Geant4/G4PVPlacement.hh \
  /home/daniel/geant4-install/include/Geant4/G4NistManager.hh \
  /home/daniel/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
  /home/daniel/geant4-install/include/Geant4/G4Material.hh \
@@ -349,12 +364,16 @@ CMakeFiles/x17sim.dir/src/DetectorConstruction.cc.o: \
  /home/daniel/geant4-install/include/Geant4/G4NistMaterialBuilder.hh \
  /home/daniel/geant4-install/include/Geant4/G4Pow.hh \
  /home/daniel/geant4-install/include/Geant4/G4Exp.hh \
+ /home/daniel/geant4-install/include/Geant4/G4PVPlacement.hh \
+ /home/daniel/geant4-install/include/Geant4/G4RotationMatrix.hh \
  /home/daniel/geant4-install/include/Geant4/G4SystemOfUnits.hh \
  /home/daniel/geant4-install/include/Geant4/G4ThreeVector.hh \
- /home/daniel/geant4-install/include/Geant4/G4RotationMatrix.hh \
+ /home/daniel/geant4-install/include/Geant4/G4Tubs.hh \
+ /home/daniel/geant4-install/include/Geant4/G4Tubs.icc \
+ /home/daniel/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
  /home/daniel/geant4-install/include/Geant4/G4VisAttributes.hh \
  /home/daniel/geant4-install/include/Geant4/graphics_reps_defs.hh \
  /home/daniel/geant4-install/include/Geant4/G4Colour.hh \
  /home/daniel/geant4-install/include/Geant4/G4Color.hh \
  /home/daniel/geant4-install/include/Geant4/G4VisAttributes.icc \
- /home/daniel/geant4-install/include/Geant4/G4Colour.hh
+ /home/daniel/geant4-install/include/Geant4/G4ios.hh

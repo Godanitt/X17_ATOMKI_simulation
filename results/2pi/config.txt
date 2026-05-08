@@ -1,0 +1,16 @@
+geometry = 2pi
+n_events = 10000
+volume_id = 0
+efficiency = 0.90
+sigma_theta_deg = 2.0
+sigma_phi_deg = 2.0
+energy_resolution = 0.05
+energy_threshold_MeV = 1.0
+detector_seed = 12345
+signal_scale = 1.0
+background_scale = 1.0
+n_signal_mix = -1
+n_background_mix = -1
+theta_region_min_deg = 120
+theta_region_max_deg = 180
+fit_seed = 12345

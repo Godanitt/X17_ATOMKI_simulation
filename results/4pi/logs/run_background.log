@@ -1,0 +1,950 @@
+
+**************************************************************
+ Geant4 version Name: geant4-11-03-patch-02 [MT]   (25-April-2025)
+  << in Multi-threaded mode >> 
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+[DetectorConstruction] Selected geometry: 4pi
+Visualization Manager instantiating with verbosity "warnings (3)"...
+Visualization Manager initialising...
+Registering graphics systems...
+
+You have successfully registered the following graphics systems.
+Registered graphics systems are:
+  ASCIITree (ATree)
+  DAWNFILE (DAWNFILE)
+  G4HepRepFile (HepRepFile)
+  RayTracer (RayTracer)
+  VRML2FILE (VRML2FILE)
+  gMocrenFile (gMocrenFile)
+  TOOLSSG_OFFSCREEN (TSG_OFFSCREEN, TSG_FILE)
+  OpenGLImmediateQt (OGLIQt, OGLI)
+  OpenGLStoredQt (OGLSQt, OGL, OGLS)
+  OpenGLImmediateX (OGLIX, OGLIQt_FALLBACK)
+  OpenGLStoredX (OGLSX, OGLSQt_FALLBACK)
+  TOOLSSG_X11_GLES (TSG_X11_GLES, TSGX11, TSG_QT_GLES_FALLBACK)
+  TOOLSSG_X11_ZB (TSG_X11_ZB, TSGX11ZB)
+  TOOLSSG_QT_GLES (TSG_QT_GLES, TSGQt, TSG)
+  TOOLSSG_QT_ZB (TSG_QT_ZB, TSGQtZB)
+You may choose a graphics system (driver) with a parameter of
+the command "/vis/open" or "/vis/sceneHandler/create",
+or you may omit the driver parameter and choose at run time:
+- by argument in the construction of G4VisExecutive;
+- by environment variable "G4VIS_DEFAULT_DRIVER";
+- by entry in "~/.g4session";
+- by build flags.
+- Note: This feature is not allowed in batch mode.
+For further information see "examples/basic/B1/exampleB1.cc"
+and "vis.mac".
+
+Registering model factories...
+
+You have successfully registered the following model factories.
+Registered model factories:
+  generic
+  drawByAttribute
+  drawByCharge
+  drawByOriginVolume
+  drawByParticleID
+  drawByEncounteredVolume
+
+Registered models:
+  None
+
+Registered filter factories:
+  attributeFilter
+  chargeFilter
+  originVolumeFilter
+  particleFilter
+  encounteredVolumeFilter
+
+Registered filters:
+  None
+
+You have successfully registered the following user vis actions.
+Run Duration User Vis Actions: none
+End of Event User Vis Actions: none
+End of Run User Vis Actions: none
+
+Some /vis commands (optionally) take a string to specify colour.
+"/vis/list" to see available colours.
+[x17sim] Input file : data/data_pair_creation.txt
+[x17sim] Output file: /home/daniel/GitHub/X17_ATOMKI_simulation/results/4pi/background_sampled.root
+[x17sim] Mode       : background
+[x17sim] Geometry   : 4pi
+
+==========================================================================================
+G4TaskRunManager :: Using G4ThreadPool...
+==========================================================================================
+
+Checking overlaps for volume LiTargetPV:0 (G4Tubs) ... OK! 
+[DetectorConstruction] Constructing geometry: 4pi
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:0 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:0 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:1 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:1 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:1 (G4Box) with FourPiForwardHemisphereSiliconPV:1 (G4Box)
+          overlap at local point (-0.180254,-19.4231,-32.3912) by 69.7463 um  (max of 2 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:2 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:2 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:2 (G4Box) with FourPiForwardHemisphereSiliconPV:2 (G4Box)
+          overlap at local point (-0.0317788,14.4535,-35.0434) by 218.221 um  (max of 4 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:3 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:3 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:3 (G4Box) with FourPiForwardHemisphereSiliconPV:3 (G4Box)
+          overlap at local point (-0.0604345,29.0651,30.1989) by 189.566 um  (max of 3 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:4 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:4 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:5 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:5 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:5 (G4Box) with FourPiForwardHemisphereSiliconPV:5 (G4Box)
+          overlap at local point (0.0287818,-29.0651,10.8263) by 221.218 um  (max of 3 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:6 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:6 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:6 (G4Box) with FourPiForwardHemisphereSiliconPV:6 (G4Box)
+          overlap at local point (-0.0185024,-37.0217,-17.7362) by 231.498 um  (max of 4 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:7 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:7 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:7 (G4Box) with FourPiForwardHemisphereSiliconPV:7 (G4Box)
+          overlap at local point (0.159917,-36.4207,21.3184) by 90.0829 um  (max of 4 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:8 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:8 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:8 (G4Box) with FourPiForwardHemisphereSiliconPV:8 (G4Box)
+          overlap at local point (0.0603749,34.78,-34.2591) by 189.625 um  (max of 3 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:9 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:9 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:10 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:10 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:10 (G4Box) with FourPiForwardHemisphereSiliconPV:10 (G4Box)
+          overlap at local point (-0.0363666,29.0875,25.5748) by 213.633 um  (max of 4 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:11 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:11 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:11 (G4Box) with FourPiForwardHemisphereSiliconPV:11 (G4Box)
+          overlap at local point (0.248331,-12.5578,41.2463) by 1.6688 um  (max of 303 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:12 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:12 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:12 (G4Box) with FourPiForwardHemisphereSiliconPV:12 (G4Box)
+          overlap at local point (0.248331,-26.0599,32.8113) by 1.6688 um  (max of 311 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:13 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:13 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:13 (G4Box) with FourPiForwardHemisphereSiliconPV:13 (G4Box)
+          overlap at local point (-0.00311048,-13.3313,-40.7307) by 246.89 um  (max of 4 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:14 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:14 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:15 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:15 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:15 (G4Box) with FourPiForwardHemisphereSiliconPV:15 (G4Box)
+          overlap at local point (-0.038798,26.5955,-34.2591) by 211.202 um  (max of 4 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:16 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:16 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:16 (G4Box) with FourPiForwardHemisphereSiliconPV:16 (G4Box)
+          overlap at local point (-0.0419598,-39.851,-32.2592) by 208.04 um  (max of 6 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:17 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:17 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:18 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:18 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:18 (G4Box) with FourPiForwardHemisphereSiliconPV:18 (G4Box)
+          overlap at local point (0.0742277,-31.6649,-28.7888) by 175.772 um  (max of 2 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:19 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:19 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:19 (G4Box) with FourPiForwardHemisphereScintillatorPV:8 (G4Box)
+          overlap at local point (7.7638,38.6882,-34.033) by 2.2362 mm  (max of 10 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:20 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereSiliconPV:20 (G4Box) with FourPiForwardHemisphereScintillatorPV:9 (G4Box)
+          overlap at local point (-6.94743,38.5049,-28.6222) by 2.49512 mm  (max of 5 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:20 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:20 (G4Box) with FourPiForwardHemisphereScintillatorPV:9 (G4Box)
+          overlap at local point (-8.79456,40.0771,-27.3924) by 922.924 um  (max of 1 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:21 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:21 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:22 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:22 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:22 (G4Box) with FourPiForwardHemisphereSiliconPV:22 (G4Box)
+          overlap at local point (0.0259133,29.0454,38.3867) by 224.087 um  (max of 3 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:23 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:23 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:23 (G4Box) with FourPiForwardHemisphereSiliconPV:23 (G4Box)
+          overlap at local point (0.0520158,-26.0116,-42.8328) by 167.192 um  (max of 5 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:24 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:24 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:25 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:25 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:25 (G4Box) with FourPiForwardHemisphereSiliconPV:25 (G4Box)
+          overlap at local point (0.0435254,-31.459,-40.4501) by 206.475 um  (max of 4 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:26 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:26 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:26 (G4Box) with FourPiForwardHemisphereScintillatorPV:13 (G4Box)
+          overlap at local point (-8.16788,-30.2952,-42.462) by 538.039 um  (max of 1 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:27 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:27 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:28 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereSiliconPV:28 (G4Box) with FourPiForwardHemisphereScintillatorPV:14 (G4Box)
+          overlap at local point (-6.17831,-37.5277,-32.8236) by 3.47229 mm  (max of 1 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:28 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:28 (G4Box) with FourPiForwardHemisphereScintillatorPV:14 (G4Box)
+          overlap at local point (-9.12091,-39.9926,-27.3859) by 879.092 um  (max of 3 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:29 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:29 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:29 (G4Box) with FourPiForwardHemisphereScintillatorPV:15 (G4Box)
+          overlap at local point (7.30799,-37.6756,-32.2893) by 2.69201 mm  (max of 11 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiForwardHemisphereSiliconPV:30 (G4Box) ... OK! 
+Checking overlaps for volume FourPiForwardHemisphereScintillatorPV:30 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiForwardHemisphereScintillatorPV:30 (G4Box) with FourPiForwardHemisphereSiliconPV:30 (G4Box)
+          overlap at local point (0.0038803,31.6649,4.40922) by 246.12 um  (max of 1 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:31 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:31 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:32 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:32 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:32 (G4Box) with FourPiBackwardHemisphereSiliconPV:32 (G4Box)
+          overlap at local point (-0.0971282,33.7212,32.3912) by 152.872 um  (max of 2 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:33 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:33 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:33 (G4Box) with FourPiBackwardHemisphereSiliconPV:33 (G4Box)
+          overlap at local point (0.0231731,37.0217,-0.107794) by 226.827 um  (max of 5 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:34 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:34 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:34 (G4Box) with FourPiBackwardHemisphereSiliconPV:34 (G4Box)
+          overlap at local point (-0.215404,29.0651,-22.9115) by 34.5961 um  (max of 2 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:35 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:35 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:36 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:36 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:36 (G4Box) with FourPiBackwardHemisphereSiliconPV:36 (G4Box)
+          overlap at local point (0.0322915,-25.9625,40.3478) by 217.709 um  (max of 2 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:37 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:37 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:37 (G4Box) with FourPiBackwardHemisphereSiliconPV:37 (G4Box)
+          overlap at local point (0.0266777,-37.0217,-34.5149) by 223.322 um  (max of 5 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:38 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:38 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:38 (G4Box) with FourPiBackwardHemisphereSiliconPV:38 (G4Box)
+          overlap at local point (-0.000762823,-36.4207,-33.4378) by 249.237 um  (max of 2 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:39 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:39 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:39 (G4Box) with FourPiBackwardHemisphereSiliconPV:39 (G4Box)
+          overlap at local point (-0.0589195,-34.6535,-24.4438) by 191.08 um  (max of 3 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:40 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:40 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:41 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:41 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:41 (G4Box) with FourPiBackwardHemisphereSiliconPV:41 (G4Box)
+          overlap at local point (-0.200569,29.0875,-1.39915) by 49.4312 um  (max of 1 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:42 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:42 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:42 (G4Box) with FourPiBackwardHemisphereSiliconPV:42 (G4Box)
+          overlap at local point (0.248331,23.2487,-19.2231) by 1.6688 um  (max of 319 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:43 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:43 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:43 (G4Box) with FourPiBackwardHemisphereSiliconPV:43 (G4Box)
+          overlap at local point (0.248331,-2.33256,32.3554) by 1.6688 um  (max of 293 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:44 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:44 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:44 (G4Box) with FourPiBackwardHemisphereSiliconPV:44 (G4Box)
+          overlap at local point (-0.0667177,-29.0875,-42.7194) by 183.282 um  (max of 6 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:45 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:45 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:46 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:46 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:46 (G4Box) with FourPiBackwardHemisphereSiliconPV:46 (G4Box)
+          overlap at local point (-0.127703,4.23374,34.2591) by 122.297 um  (max of 3 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:47 (G4Box) ... OK! 
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:47 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:47 (G4Box) with FourPiBackwardHemisphereSiliconPV:47 (G4Box)
+          overlap at local point (0.0204724,-20.2087,32.2592) by 229.528 um  (max of 3 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:48 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereSiliconPV:48 (G4Box) with FourPiForwardHemisphereSiliconPV:17 (G4Box)
+          overlap at local point (0.0403982,-30.289,-31.9669) by 209.602 um  (max of 12 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:48 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:48 (G4Box) with FourPiForwardHemisphereSiliconPV:17 (G4Box)
+          overlap at local point (0.0719355,-13.365,-24.7286) by 178.064 um  (max of 8 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:49 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereSiliconPV:49 (G4Box) with FourPiForwardHemisphereSiliconPV:18 (G4Box)
+          overlap at local point (0.000266229,30.6782,-30.056) by 249.734 um  (max of 19 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:49 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:49 (G4Box) with FourPiForwardHemisphereSiliconPV:18 (G4Box)
+          overlap at local point (-0.013818,-11.4175,-42.6195) by 236.182 um  (max of 6 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:50 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereSiliconPV:50 (G4Box) with FourPiForwardHemisphereSiliconPV:19 (G4Box)
+          overlap at local point (-0.000927479,-8.63223,-33.3169) by 249.073 um  (max of 31 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:50 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:50 (G4Box) with FourPiForwardHemisphereSiliconPV:19 (G4Box)
+          overlap at local point (0.0934358,-29.6575,-33.0507) by 156.564 um  (max of 4 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:51 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereSiliconPV:51 (G4Box) with FourPiForwardHemisphereSiliconPV:20 (G4Box)
+          overlap at local point (0.0026577,-13.9608,-36.9511) by 247.342 um  (max of 100 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:51 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:51 (G4Box) with FourPiForwardHemisphereSiliconPV:20 (G4Box)
+          overlap at local point (-0.0436984,28.1425,-42.4618) by 206.302 um  (max of 10 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:52 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereSiliconPV:52 (G4Box) with FourPiForwardHemisphereSiliconPV:21 (G4Box)
+          overlap at local point (7.92986e-05,32.2266,-30.5781) by 249.921 um  (max of 79 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:52 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:52 (G4Box) with FourPiForwardHemisphereSiliconPV:21 (G4Box)
+          overlap at local point (-0.113663,13.9348,-15.8138) by 136.337 um  (max of 4 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:53 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereSiliconPV:53 (G4Box) with FourPiForwardHemisphereSiliconPV:22 (G4Box)
+          overlap at local point (-0.00352996,2.4046,-29.2203) by 246.47 um  (max of 35 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:53 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:53 (G4Box) with FourPiForwardHemisphereSiliconPV:22 (G4Box)
+          overlap at local point (-0.0397429,-27.6476,-25.2035) by 210.257 um  (max of 3 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:54 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereSiliconPV:54 (G4Box) with FourPiForwardHemisphereSiliconPV:23 (G4Box)
+          overlap at local point (0.0151009,38.7516,-27.4904) by 234.899 um  (max of 28 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:54 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:54 (G4Box) with FourPiForwardHemisphereSiliconPV:23 (G4Box)
+          overlap at local point (-0.0428035,-22.4477,-23.1182) by 207.197 um  (max of 7 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:55 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereSiliconPV:55 (G4Box) with FourPiForwardHemisphereSiliconPV:24 (G4Box)
+          overlap at local point (-0.0170486,-0.297464,-30.0715) by 232.951 um  (max of 22 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:55 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:55 (G4Box) with FourPiForwardHemisphereSiliconPV:24 (G4Box)
+          overlap at local point (-0.00914521,-27.8511,-39.1138) by 240.855 um  (max of 7 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:56 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereSiliconPV:56 (G4Box) with FourPiForwardHemisphereSiliconPV:25 (G4Box)
+          overlap at local point (-0.0046906,-34.2625,-29.8547) by 245.309 um  (max of 19 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:56 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:56 (G4Box) with FourPiForwardHemisphereSiliconPV:25 (G4Box)
+          overlap at local point (-0.0771903,-1.12317,-21.815) by 172.81 um  (max of 4 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:57 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereSiliconPV:57 (G4Box) with FourPiForwardHemisphereSiliconPV:26 (G4Box)
+          overlap at local point (0.0153087,35.5749,-33.2855) by 234.691 um  (max of 30 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:57 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:57 (G4Box) with FourPiForwardHemisphereSiliconPV:26 (G4Box)
+          overlap at local point (0.0113843,-0.304529,-18.9461) by 238.616 um  (max of 5 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:58 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereSiliconPV:58 (G4Box) with FourPiForwardHemisphereSiliconPV:27 (G4Box)
+          overlap at local point (0.000531367,4.05033,-35.5413) by 249.469 um  (max of 92 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:58 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:58 (G4Box) with FourPiForwardHemisphereSiliconPV:27 (G4Box)
+          overlap at local point (0.0517778,-31.0402,-11.4351) by 198.222 um  (max of 6 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:59 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereSiliconPV:59 (G4Box) with FourPiForwardHemisphereSiliconPV:28 (G4Box)
+          overlap at local point (-0.00209485,-34.5681,-22.0725) by 247.905 um  (max of 97 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:59 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:59 (G4Box) with FourPiForwardHemisphereSiliconPV:28 (G4Box)
+          overlap at local point (-0.214731,-39.4825,-38.1249) by 35.2685 um  (max of 4 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:60 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereSiliconPV:60 (G4Box) with FourPiForwardHemisphereSiliconPV:29 (G4Box)
+          overlap at local point (-0.00199902,40.2064,-33.8707) by 248.001 um  (max of 46 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:60 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:60 (G4Box) with FourPiForwardHemisphereSiliconPV:29 (G4Box)
+          overlap at local point (-0.0620831,20.0968,-25.719) by 187.917 um  (max of 2 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereSiliconPV:61 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereSiliconPV:61 (G4Box) with FourPiForwardHemisphereSiliconPV:30 (G4Box)
+          overlap at local point (-0.008688,0.207187,-29.8911) by 241.312 um  (max of 35 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FourPiBackwardHemisphereScintillatorPV:61 (G4Box) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume FourPiBackwardHemisphereScintillatorPV:61 (G4Box) with FourPiForwardHemisphereSiliconPV:30 (G4Box)
+          overlap at local point (0.0662563,-33.45,-40.1958) by 183.744 um  (max of 16 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+=========================================================================
+--> G4TaskRunManager::CreateAndStartWorkers() --> Initializing workers...
+=========================================================================
+
+G4WT0 > [generator] MODE = background
+G4WT0 > [generator] smooth IPC-like toy background:
+G4WT0 > [generator]   total kinetic energy e-+e+ = 17.5 MeV
+G4WT0 > [generator]   per-particle kinetic minimum = 0.2 MeV
+G4WT0 > [generator]   opening-angle scale = 40 deg
+G4WT0 > [generator] This is not a tuned IPC model; it is a smooth falling template for detector/analysis studies.
+
+========= Table of registered couples ============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  1 mm     e-  1 mm     e+  1 mm  proton 1 mm 
+ Energy thresholds :  gamma  990 eV     e-  990 eV     e+  990 eV  proton -1 MeV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : G4_Li
+ Range cuts        :  gamma  1 mm     e-  1 mm     e+  1 mm  proton 1 mm 
+ Energy thresholds :  gamma  1.19198 keV    e-  207.397 keV    e+  203.27 keV proton -1 MeV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : G4_Si
+ Range cuts        :  gamma  1 mm     e-  1 mm     e+  1 mm  proton 1 mm 
+ Energy thresholds :  gamma  6.93672 keV    e-  546.311 keV    e+  525.593 keV proton -1 MeV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : G4_PLASTIC_SC_VINYLTOLUENE
+ Range cuts        :  gamma  1 mm     e-  1 mm     e+  1 mm  proton 1 mm 
+ Energy thresholds :  gamma  2.3988 keV    e-  356.841 keV    e+  347.078 keV proton -1 MeV
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+==================================================================
+
+### Run 0 starts.
+... set ntuple merging row mode : row-wise - done
+... create file : /home/daniel/GitHub/X17_ATOMKI_simulation/results/4pi/background_sampled.root - done
+... open analysis file : /home/daniel/GitHub/X17_ATOMKI_simulation/results/4pi/background_sampled.root - done
+... open main analysis file : /home/daniel/GitHub/X17_ATOMKI_simulation/results/4pi/background_sampled.root - done
+[RunAction] ROOT output: /home/daniel/GitHub/X17_ATOMKI_simulation/results/4pi/background_sampled.root
+
+============================================================================================
+--> G4TaskRunManager::CreateAndStartWorkers() --> Creating 100 tasks with 100 events/task...
+============================================================================================
+
+G4WT0 > ### Run 0 starts on worker thread 0.
+G4WT0 > ... set ntuple merging row mode : row-wise - done
+G4WT0 > [RunAction] ROOT output: /home/daniel/GitHub/X17_ATOMKI_simulation/results/4pi/background_sampled.root
+G4WT0 > [thread 0] Thread-local run terminated.
+G4WT0 > [thread 0] Run Summary
+G4WT0 > [thread 0]   Number of events processed : 10000
+G4WT0 > [thread 0]   User=0.010000s Real=0.005240s Sys=0.000000s [Cpu=190.8%]
+G4WT0 > [RunAction] ROOT file written with exactly two trees: generated, hits.
+ Run terminated.
+Run Summary
+  Number of events processed : 10000
+  User=0.570000s Real=0.577761s Sys=0.000000s [Cpu=98.7%]
+... write file : /home/daniel/GitHub/X17_ATOMKI_simulation/results/4pi/background_sampled.root - done
+... close file : /home/daniel/GitHub/X17_ATOMKI_simulation/results/4pi/background_sampled.root - done
+[RunAction] ROOT file written with exactly two trees: generated, hits.
+Graphics systems deleted.
+Visualization Manager deleting...
+G4WT0 > ================== Deleting memory pools ===================
+G4WT0 > Number of memory pools allocated: 9; of which, static: 0
+G4WT0 > Dynamic pools deleted: 9 / Total memory freed: 0.015 MB
+G4WT0 > ============================================================
+================== Deleting memory pools ===================
+Number of memory pools allocated: 3; of which, static: 0
+Dynamic pools deleted: 3 / Total memory freed: 0.0048 MB
+============================================================

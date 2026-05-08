@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/home/daniel/GitHub/X17_ATOMKI_simulation/build",
+  "command": "/usr/bin/c++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/daniel/GitHub/X17_ATOMKI_simulation/include -isystem /home/daniel/geant4-install/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -O3 -DNDEBUG -std=c++17 -fPIC -o CMakeFiles/x17sim.dir/x17sim.cc.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/x17sim.cc",
+  "file": "/home/daniel/GitHub/X17_ATOMKI_simulation/x17sim.cc",
+  "output": "CMakeFiles/x17sim.dir/x17sim.cc.o"
+},
+{
+  "directory": "/home/daniel/GitHub/X17_ATOMKI_simulation/build",
+  "command": "/usr/bin/c++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/daniel/GitHub/X17_ATOMKI_simulation/include -isystem /home/daniel/geant4-install/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -O3 -DNDEBUG -std=c++17 -fPIC -o CMakeFiles/x17sim.dir/src/DetectorConstruction.cc.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/src/DetectorConstruction.cc",
+  "file": "/home/daniel/GitHub/X17_ATOMKI_simulation/src/DetectorConstruction.cc",
+  "output": "CMakeFiles/x17sim.dir/src/DetectorConstruction.cc.o"
+},
+{
+  "directory": "/home/daniel/GitHub/X17_ATOMKI_simulation/build",
+  "command": "/usr/bin/c++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/daniel/GitHub/X17_ATOMKI_simulation/include -isystem /home/daniel/geant4-install/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -O3 -DNDEBUG -std=c++17 -fPIC -o CMakeFiles/x17sim.dir/src/ActionInitialization.cc.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/src/ActionInitialization.cc",
+  "file": "/home/daniel/GitHub/X17_ATOMKI_simulation/src/ActionInitialization.cc",
+  "output": "CMakeFiles/x17sim.dir/src/ActionInitialization.cc.o"
+},
+{
+  "directory": "/home/daniel/GitHub/X17_ATOMKI_simulation/build",
+  "command": "/usr/bin/c++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/daniel/GitHub/X17_ATOMKI_simulation/include -isystem /home/daniel/geant4-install/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -O3 -DNDEBUG -std=c++17 -fPIC -o CMakeFiles/x17sim.dir/src/PrimaryGeneratorAction.cc.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/src/PrimaryGeneratorAction.cc",
+  "file": "/home/daniel/GitHub/X17_ATOMKI_simulation/src/PrimaryGeneratorAction.cc",
+  "output": "CMakeFiles/x17sim.dir/src/PrimaryGeneratorAction.cc.o"
+},
+{
+  "directory": "/home/daniel/GitHub/X17_ATOMKI_simulation/build",
+  "command": "/usr/bin/c++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/daniel/GitHub/X17_ATOMKI_simulation/include -isystem /home/daniel/geant4-install/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -O3 -DNDEBUG -std=c++17 -fPIC -o CMakeFiles/x17sim.dir/src/RunAction.cc.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/src/RunAction.cc",
+  "file": "/home/daniel/GitHub/X17_ATOMKI_simulation/src/RunAction.cc",
+  "output": "CMakeFiles/x17sim.dir/src/RunAction.cc.o"
+},
+{
+  "directory": "/home/daniel/GitHub/X17_ATOMKI_simulation/build",
+  "command": "/usr/bin/c++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/daniel/GitHub/X17_ATOMKI_simulation/include -isystem /home/daniel/geant4-install/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -O3 -DNDEBUG -std=c++17 -fPIC -o CMakeFiles/x17sim.dir/src/EventAction.cc.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/src/EventAction.cc",
+  "file": "/home/daniel/GitHub/X17_ATOMKI_simulation/src/EventAction.cc",
+  "output": "CMakeFiles/x17sim.dir/src/EventAction.cc.o"
+},
+{
+  "directory": "/home/daniel/GitHub/X17_ATOMKI_simulation/build",
+  "command": "/usr/bin/c++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/daniel/GitHub/X17_ATOMKI_simulation/include -isystem /home/daniel/geant4-install/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -O3 -DNDEBUG -std=c++17 -fPIC -o CMakeFiles/x17sim.dir/src/SteppingAction.cc.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/src/SteppingAction.cc",
+  "file": "/home/daniel/GitHub/X17_ATOMKI_simulation/src/SteppingAction.cc",
+  "output": "CMakeFiles/x17sim.dir/src/SteppingAction.cc.o"
+},
+{
+  "directory": "/home/daniel/GitHub/X17_ATOMKI_simulation/build",
+  "command": "/usr/bin/c++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/daniel/GitHub/X17_ATOMKI_simulation/include -isystem /home/daniel/geant4-install/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -O3 -DNDEBUG -std=c++17 -fPIC -o CMakeFiles/x17sim.dir/src/PhysicsList.cc.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/src/PhysicsList.cc",
+  "file": "/home/daniel/GitHub/X17_ATOMKI_simulation/src/PhysicsList.cc",
+  "output": "CMakeFiles/x17sim.dir/src/PhysicsList.cc.o"
+}
+]
