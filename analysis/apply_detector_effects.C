@@ -44,6 +44,22 @@ double opening_angle_deg_from_angles(double theta1Deg, double phi1Deg,
     c = clamp(c, -1.0, 1.0);
     return std::acos(c) * 180.0 / TMath::Pi();
 }
+
+// Energies stored in the simulation are kinetic energies. For invariant mass
+// use total energies: E_total = T + m_e and |p| = sqrt(T^2 + 2 T m_e).
+double mass_ee_mev_from_kinetic(double kineticEeMeV,
+                                double kineticEpMeV,
+                                double thetaEEDeg)
+{
+    constexpr double me = 0.51099895; // MeV/c^2
+    const double e1 = kineticEeMeV + me;
+    const double e2 = kineticEpMeV + me;
+    const double p1 = std::sqrt(std::max(0.0, kineticEeMeV * kineticEeMeV + 2.0 * kineticEeMeV * me));
+    const double p2 = std::sqrt(std::max(0.0, kineticEpMeV * kineticEpMeV + 2.0 * kineticEpMeV * me));
+    const double c12 = std::cos(thetaEEDeg * TMath::Pi() / 180.0);
+    const double m2 = 2.0 * me * me + 2.0 * (e1 * e2 - p1 * p2 * c12);
+    return std::sqrt(std::max(0.0, m2));
+}
 }
 
 void apply_detector_effects(const char* inputFile  = "analysis_hits.root",
@@ -151,8 +167,10 @@ void apply_detector_effects(const char* inputFile  = "analysis_hits.root",
     TH1D hDeltaThetaEE("hDeltaThetaEE", "Opening angle residual;#theta_{ee}^{reco}-#theta_{ee}^{hit} [deg];Events", 160, -20, 20);
     TH2D hThetaEEhitVsReco("hThetaEEhitVsReco", "Opening angle response;#theta_{ee}^{hit} [deg];#theta_{ee}^{reco} [deg]", 180, 0, 180, 180, 0, 180);
 
-    TH1D hEnergyEeReco("hEnergyEeReco", "Electron reconstructed energy;E_{e-}^{reco} [MeV];Events", 200, 0, 20);
-    TH1D hEnergyEpReco("hEnergyEpReco", "Positron reconstructed energy;E_{e+}^{reco} [MeV];Events", 200, 0, 20);
+    TH1D hEnergyEeReco("hEnergyEeReco", "Electron reconstructed kinetic energy;T_{e-}^{reco} [MeV];Events", 200, 0, 20);
+    TH1D hEnergyEpReco("hEnergyEpReco", "Positron reconstructed kinetic energy;T_{e+}^{reco} [MeV];Events", 200, 0, 20);
+    TH1D hEnergyEEReco("hEnergyEEReco", "Reconstructed kinetic-energy sum;T_{e-}^{reco}+T_{e+}^{reco} [MeV];Events", 220, 0, 22);
+    TH1D hMassEEReco("hMassEEReco", "Reconstructed invariant mass;m_{ee}^{reco} [MeV/c^{2}];Events", 220, 0, 22);
     TH1D hThetaEeReco("hThetaEeReco", "Electron reconstructed polar angle;#theta_{e-}^{reco} [deg];Events", 180, 0, 180);
     TH1D hThetaEpReco("hThetaEpReco", "Positron reconstructed polar angle;#theta_{e+}^{reco} [deg];Events", 180, 0, 180);
 
@@ -163,6 +181,10 @@ void apply_detector_effects(const char* inputFile  = "analysis_hits.root",
     double phiEp_reco_deg = -999.0;
     double energyEe_reco_MeV = -999.0;
     double energyEp_reco_MeV = -999.0;
+    double energyEE_hit_MeV = -999.0;
+    double energyEE_reco_MeV = -999.0;
+    double massEE_hit_MeV = -999.0;
+    double massEE_reco_MeV = -999.0;
 
     bool passedEfficiency = false;
     bool passedThreshold = false;
@@ -205,6 +227,10 @@ void apply_detector_effects(const char* inputFile  = "analysis_hits.root",
     detectedOut.Branch("phiEp_reco_deg", &phiEp_reco_deg);
     detectedOut.Branch("energyEe_reco_MeV", &energyEe_reco_MeV);
     detectedOut.Branch("energyEp_reco_MeV", &energyEp_reco_MeV);
+    detectedOut.Branch("energyEE_hit_MeV", &energyEE_hit_MeV);
+    detectedOut.Branch("energyEE_reco_MeV", &energyEE_reco_MeV);
+    detectedOut.Branch("massEE_hit_MeV", &massEE_hit_MeV);
+    detectedOut.Branch("massEE_reco_MeV", &massEE_reco_MeV);
 
     detectedOut.Branch("xEe_hit_mm", &xEe_hit_mm);
     detectedOut.Branch("yEe_hit_mm", &yEe_hit_mm);
@@ -224,6 +250,8 @@ void apply_detector_effects(const char* inputFile  = "analysis_hits.root",
         hCutFlow.Fill(1);
         hThetaEEtxt.Fill(thetaEE_txt_deg);
         hThetaEEhit.Fill(thetaEE_hit_deg);
+        energyEE_hit_MeV = energyEe_hit_MeV + energyEp_hit_MeV;
+        massEE_hit_MeV = mass_ee_mev_from_kinetic(energyEe_hit_MeV, energyEp_hit_MeV, thetaEE_hit_deg);
 
         passedEfficiency = false;
         passedThreshold = false;
@@ -254,12 +282,16 @@ void apply_detector_effects(const char* inputFile  = "analysis_hits.root",
 
         thetaEE_reco_deg = opening_angle_deg_from_angles(thetaEe_reco_deg, phiEe_reco_deg,
                                                         thetaEp_reco_deg, phiEp_reco_deg);
+        energyEE_reco_MeV = energyEe_reco_MeV + energyEp_reco_MeV;
+        massEE_reco_MeV = mass_ee_mev_from_kinetic(energyEe_reco_MeV, energyEp_reco_MeV, thetaEE_reco_deg);
 
         hThetaEEreco.Fill(thetaEE_reco_deg);
         hDeltaThetaEE.Fill(thetaEE_reco_deg - thetaEE_hit_deg);
         hThetaEEhitVsReco.Fill(thetaEE_hit_deg, thetaEE_reco_deg);
         hEnergyEeReco.Fill(energyEe_reco_MeV);
         hEnergyEpReco.Fill(energyEp_reco_MeV);
+        hEnergyEEReco.Fill(energyEE_reco_MeV);
+        hMassEEReco.Fill(massEE_reco_MeV);
         hThetaEeReco.Fill(thetaEe_reco_deg);
         hThetaEpReco.Fill(thetaEp_reco_deg);
 
@@ -276,6 +308,8 @@ void apply_detector_effects(const char* inputFile  = "analysis_hits.root",
     hThetaEEhitVsReco.Write();
     hEnergyEeReco.Write();
     hEnergyEpReco.Write();
+    hEnergyEEReco.Write();
+    hMassEEReco.Write();
     hThetaEeReco.Write();
     hThetaEpReco.Write();
     detectedOut.Write();

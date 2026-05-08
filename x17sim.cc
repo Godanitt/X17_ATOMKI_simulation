@@ -17,11 +17,12 @@ void PrintUsage(const char* exe)
 {
     std::cerr
         << "Usage:\n"
-        << "  " << exe << " --vis [-i input.txt] [-o sampled.root]\n"
-        << "  " << exe << " -m macro.mac [-i input.txt] [-o sampled.root]\n\n"
+        << "  " << exe << " --vis [-i input.txt] [-o sampled.root] [--mode signal|background]\n"
+        << "  " << exe << " -m macro.mac [-i input.txt] [-o sampled.root] [--mode signal|background]\n\n"
         << "Defaults:\n"
         << "  input  = data/data_pair_creation.txt\n"
-        << "  output = sampled.root\n";
+        << "  output = sampled.root\n"
+        << "  mode   = signal\n";
 }
 }
 
@@ -30,6 +31,7 @@ int main(int argc, char** argv)
     G4String inputFile = "data/data_pair_creation.txt";
     G4String outputFile = "sampled.root";
     G4String macroFile;
+    G4String generationMode = "signal";
     G4bool visualMode = false;
 
     for (int i = 1; i < argc; ++i)
@@ -46,6 +48,10 @@ int main(int argc, char** argv)
         else if ((arg == "-m" || arg == "--macro") && i + 1 < argc)
         {
             macroFile = argv[++i];
+        }
+        else if ((arg == "--mode" || arg == "--sample") && i + 1 < argc)
+        {
+            generationMode = argv[++i];
         }
         else if (arg == "--vis")
         {
@@ -70,7 +76,7 @@ int main(int argc, char** argv)
     auto* runManager = G4RunManagerFactory::CreateRunManager(G4RunManagerType::Default);
     runManager->SetUserInitialization(new DetectorConstruction());
     runManager->SetUserInitialization(new PhysicsList());
-    runManager->SetUserInitialization(new ActionInitialization(inputFile, outputFile));
+    runManager->SetUserInitialization(new ActionInitialization(inputFile, outputFile, generationMode));
 
     auto* visManager = new G4VisExecutive();
     visManager->Initialize();

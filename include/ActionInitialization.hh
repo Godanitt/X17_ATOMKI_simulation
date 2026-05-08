@@ -8,7 +8,8 @@ class ActionInitialization : public G4VUserActionInitialization
 {
 public:
     ActionInitialization(const G4String& inputFile,
-                         const G4String& outputFile);
+                         const G4String& outputFile,
+                         const G4String& generationMode);
     ~ActionInitialization() override = default;
 
     void BuildForMaster() const override;
@@ -17,6 +18,7 @@ public:
 private:
     G4String fInputFile;
     G4String fOutputFile;
+    G4String fGenerationMode;
 };
 
 #endif

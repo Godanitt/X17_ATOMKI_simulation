@@ -39,6 +39,6 @@ rm -f "${OUTPUT}"
 echo "Using input data table: ${INPUT}"
 echo "First data row [thetaEE thetaEe energyEe thetaEp energyEp]: $(grep -v '^#' "${INPUT}" | head -n 1)"
 echo "Output ROOT file: ${OUTPUT}"
-"${BUILD_DIR}/x17sim" -m "${MACRO}" -i "${INPUT}" -o "${OUTPUT}" | tee "${LOG_DIR}/run_generated.log"
+"${BUILD_DIR}/x17sim" -m "${MACRO}" -i "${INPUT}" -o "${OUTPUT}" --mode signal | tee "${LOG_DIR}/run_generated.log"
 
 echo "Wrote ${OUTPUT} with exactly two trees: generated, hits"

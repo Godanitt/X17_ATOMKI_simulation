@@ -6,9 +6,11 @@
 #include "SteppingAction.hh"
 
 ActionInitialization::ActionInitialization(const G4String& inputFile,
-                                           const G4String& outputFile)
+                                           const G4String& outputFile,
+                                           const G4String& generationMode)
     : fInputFile(inputFile),
-      fOutputFile(outputFile)
+      fOutputFile(outputFile),
+      fGenerationMode(generationMode)
 {}
 
 void ActionInitialization::BuildForMaster() const
@@ -23,6 +25,6 @@ void ActionInitialization::Build() const
     auto* eventAction = new EventAction();
     SetUserAction(eventAction);
 
-    SetUserAction(new PrimaryGeneratorAction(eventAction, fInputFile));
+    SetUserAction(new PrimaryGeneratorAction(eventAction, fInputFile, fGenerationMode));
     SetUserAction(new SteppingAction(eventAction));
 }
