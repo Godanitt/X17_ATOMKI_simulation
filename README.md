@@ -258,3 +258,5 @@ extracted X17-like signal shape, while the pure signal MC remains in:
 ```text
 results/<geometry>/analysis_hits_detector_effects.root
 ```
+
+- Orientation fix: `current` keeps its original hand-tuned hexagonal rotations, while `2pi` and `4pi` now use a dedicated spherical-shell orientation that keeps the telescope normals radial and the in-plane twist consistent with the beam axis.

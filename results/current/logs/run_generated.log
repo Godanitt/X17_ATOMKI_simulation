@@ -155,12 +155,12 @@ G4WT0 > [RunAction] ROOT output: /home/daniel/GitHub/X17_ATOMKI_simulation/resul
 G4WT0 > [thread 0] Thread-local run terminated.
 G4WT0 > [thread 0] Run Summary
 G4WT0 > [thread 0]   Number of events processed : 10000
-G4WT0 > [thread 0]   User=0.000000s Real=0.004438s Sys=0.000000s [Cpu=0.0%]
+G4WT0 > [thread 0]   User=0.010000s Real=0.004088s Sys=0.000000s [Cpu=244.6%]
 G4WT0 > [RunAction] ROOT file written with exactly two trees: generated, hits.
  Run terminated.
 Run Summary
   Number of events processed : 10000
-  User=0.480000s Real=0.484857s Sys=0.010000s [Cpu=101.1%]
+  User=0.430000s Real=0.447030s Sys=0.000000s [Cpu=96.2%]
 ... write file : /home/daniel/GitHub/X17_ATOMKI_simulation/results/current/sampled.root - done
 ... close file : /home/daniel/GitHub/X17_ATOMKI_simulation/results/current/sampled.root - done
 [RunAction] ROOT file written with exactly two trees: generated, hits.

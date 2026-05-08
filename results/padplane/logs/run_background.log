@@ -132,8 +132,6 @@ Checking overlaps for volume ForwardPadPlaneSiliconPV:22 (G4Box) ... OK!
 Checking overlaps for volume ForwardPadPlaneScintillatorPV:22 (G4Box) ... OK! 
 Checking overlaps for volume ForwardPadPlaneSiliconPV:23 (G4Box) ... OK! 
 Checking overlaps for volume ForwardPadPlaneScintillatorPV:23 (G4Box) ... OK! 
-Checking overlaps for volume ForwardPadPlaneSiliconPV:24 (G4Box) ... OK! 
-Checking overlaps for volume ForwardPadPlaneScintillatorPV:24 (G4Box) ... OK! 
 
 =========================================================================
 --> G4TaskRunManager::CreateAndStartWorkers() --> Initializing workers...
@@ -195,12 +193,12 @@ G4WT0 > [RunAction] ROOT output: /home/daniel/GitHub/X17_ATOMKI_simulation/resul
 G4WT0 > [thread 0] Thread-local run terminated.
 G4WT0 > [thread 0] Run Summary
 G4WT0 > [thread 0]   Number of events processed : 10000
-G4WT0 > [thread 0]   User=0.000000s Real=0.004281s Sys=0.000000s [Cpu=0.0%]
+G4WT0 > [thread 0]   User=0.000000s Real=0.004244s Sys=0.000000s [Cpu=0.0%]
 G4WT0 > [RunAction] ROOT file written with exactly two trees: generated, hits.
  Run terminated.
 Run Summary
   Number of events processed : 10000
-  User=0.480000s Real=0.494485s Sys=0.010000s [Cpu=99.1%]
+  User=0.490000s Real=0.494723s Sys=0.000000s [Cpu=99.0%]
 ... write file : /home/daniel/GitHub/X17_ATOMKI_simulation/results/padplane/background_sampled.root - done
 ... close file : /home/daniel/GitHub/X17_ATOMKI_simulation/results/padplane/background_sampled.root - done
 [RunAction] ROOT file written with exactly two trees: generated, hits.

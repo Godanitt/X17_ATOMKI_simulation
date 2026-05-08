@@ -39,8 +39,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-TBgVB6"
-      binary: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-TBgVB6"
+      source: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-D1fYuG"
+      binary: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-D1fYuG"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -49,13 +49,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-TBgVB6'
+        Change Dir: '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-D1fYuG'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dfe66/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_dfe66.dir/build.make CMakeFiles/cmTC_dfe66.dir/build
-        gmake[1]: Entering directory '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-TBgVB6'
-        Building CXX object CMakeFiles/cmTC_dfe66.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_dfe66.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_91971/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_91971.dir/build.make CMakeFiles/cmTC_91971.dir/build
+        gmake[1]: Entering directory '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-D1fYuG'
+        Building CXX object CMakeFiles/cmTC_91971.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_91971.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -65,8 +65,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfe66.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfe66.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_dfe66.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc189ksa.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_91971.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_91971.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_91971.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccX2aaaE.s
         GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -87,15 +87,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 7896445e4990772fdae9dc0659a99266
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfe66.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfe66.dir/'
-         as -v --64 -o CMakeFiles/cmTC_dfe66.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc189ksa.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_91971.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_91971.dir/'
+         as -v --64 -o CMakeFiles/cmTC_91971.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccX2aaaE.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfe66.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfe66.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_dfe66
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfe66.dir/link.txt --verbose=1
-        /usr/bin/c++  -v CMakeFiles/cmTC_dfe66.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_dfe66 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_91971.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_91971.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_91971
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91971.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_91971.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_91971 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -108,10 +108,10 @@ events:
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dfe66' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dfe66.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWfd3UC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_dfe66 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_dfe66.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dfe66' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dfe66.'
-        gmake[1]: Leaving directory '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-TBgVB6'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_91971' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_91971.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDysVpz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_91971 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_91971.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_91971' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_91971.'
+        gmake[1]: Leaving directory '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-D1fYuG'
         
       exitCode: 0
   -
@@ -151,13 +151,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-TBgVB6']
+        ignore line: [Change Dir: '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-D1fYuG']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dfe66/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_dfe66.dir/build.make CMakeFiles/cmTC_dfe66.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-TBgVB6']
-        ignore line: [Building CXX object CMakeFiles/cmTC_dfe66.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_dfe66.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_91971/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_91971.dir/build.make CMakeFiles/cmTC_91971.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-D1fYuG']
+        ignore line: [Building CXX object CMakeFiles/cmTC_91971.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_91971.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -167,8 +167,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfe66.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfe66.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_dfe66.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc189ksa.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_91971.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_91971.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_91971.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccX2aaaE.s]
         ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -189,15 +189,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 7896445e4990772fdae9dc0659a99266]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfe66.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfe66.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_dfe66.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc189ksa.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_91971.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_91971.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_91971.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccX2aaaE.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfe66.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfe66.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_dfe66]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfe66.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_dfe66.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_dfe66 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_91971.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_91971.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_91971]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91971.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_91971.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_91971 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
@@ -210,13 +210,13 @@ events:
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dfe66' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dfe66.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWfd3UC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_dfe66 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_dfe66.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_91971' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_91971.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDysVpz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_91971 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_91971.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccWfd3UC.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccDysVpz.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -234,7 +234,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_dfe66] ==> ignore
+          arg [cmTC_91971] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -246,7 +246,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
-          arg [CMakeFiles/cmTC_dfe66.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_91971.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -288,8 +288,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-Ej9dfn"
-      binary: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-Ej9dfn"
+      source: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-iXSaL9"
+      binary: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-iXSaL9"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -299,17 +299,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-Ej9dfn'
+        Change Dir: '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-iXSaL9'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fd0eb/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_fd0eb.dir/build.make CMakeFiles/cmTC_fd0eb.dir/build
-        gmake[1]: se entra en el directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-Ej9dfn'
-        Building CXX object CMakeFiles/cmTC_fd0eb.dir/src.cxx.o
-        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=c++17 -o CMakeFiles/cmTC_fd0eb.dir/src.cxx.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-Ej9dfn/src.cxx
-        Linking CXX executable cmTC_fd0eb
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd0eb.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_fd0eb.dir/src.cxx.o -o cmTC_fd0eb 
-        gmake[1]: se sale del directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-Ej9dfn'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e1c0f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e1c0f.dir/build.make CMakeFiles/cmTC_e1c0f.dir/build
+        gmake[1]: se entra en el directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-iXSaL9'
+        Building CXX object CMakeFiles/cmTC_e1c0f.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=c++17 -o CMakeFiles/cmTC_e1c0f.dir/src.cxx.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-iXSaL9/src.cxx
+        Linking CXX executable cmTC_e1c0f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1c0f.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_e1c0f.dir/src.cxx.o -o cmTC_e1c0f 
+        gmake[1]: se sale del directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-iXSaL9'
         
       exitCode: 0
   -
@@ -323,8 +323,8 @@ events:
     checks:
       - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
     directories:
-      source: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-dG5tNq"
-      binary: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-dG5tNq"
+      source: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-YaH3wf"
+      binary: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-YaH3wf"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -334,17 +334,17 @@ events:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-dG5tNq'
+        Change Dir: '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-YaH3wf'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_929dd/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_929dd.dir/build.make CMakeFiles/cmTC_929dd.dir/build
-        gmake[1]: se entra en el directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-dG5tNq'
-        Building CXX object CMakeFiles/cmTC_929dd.dir/CheckFunctionExists.cxx.o
-        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -std=c++17 -o CMakeFiles/cmTC_929dd.dir/CheckFunctionExists.cxx.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-dG5tNq/CheckFunctionExists.cxx
-        Linking CXX executable cmTC_929dd
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_929dd.dir/link.txt --verbose=1
-        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_929dd.dir/CheckFunctionExists.cxx.o -o cmTC_929dd  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
-        gmake[1]: se sale del directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-dG5tNq'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_835c5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_835c5.dir/build.make CMakeFiles/cmTC_835c5.dir/build
+        gmake[1]: se entra en el directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-YaH3wf'
+        Building CXX object CMakeFiles/cmTC_835c5.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -std=c++17 -o CMakeFiles/cmTC_835c5.dir/CheckFunctionExists.cxx.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-YaH3wf/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_835c5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_835c5.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_835c5.dir/CheckFunctionExists.cxx.o -o cmTC_835c5  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+        gmake[1]: se sale del directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-YaH3wf'
         
       exitCode: 0
   -
@@ -358,8 +358,8 @@ events:
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-WPIJMC"
-      binary: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-WPIJMC"
+      source: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-u4SV9g"
+      binary: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-u4SV9g"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -369,17 +369,17 @@ events:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-WPIJMC'
+        Change Dir: '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-u4SV9g'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c4758/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_c4758.dir/build.make CMakeFiles/cmTC_c4758.dir/build
-        gmake[1]: se entra en el directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-WPIJMC'
-        Building CXX object CMakeFiles/cmTC_c4758.dir/CheckFunctionExists.cxx.o
-        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=gethostbyname -std=c++17 -o CMakeFiles/cmTC_c4758.dir/CheckFunctionExists.cxx.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-WPIJMC/CheckFunctionExists.cxx
-        Linking CXX executable cmTC_c4758
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4758.dir/link.txt --verbose=1
-        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_c4758.dir/CheckFunctionExists.cxx.o -o cmTC_c4758 
-        gmake[1]: se sale del directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-WPIJMC'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_44ffb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_44ffb.dir/build.make CMakeFiles/cmTC_44ffb.dir/build
+        gmake[1]: se entra en el directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-u4SV9g'
+        Building CXX object CMakeFiles/cmTC_44ffb.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=gethostbyname -std=c++17 -o CMakeFiles/cmTC_44ffb.dir/CheckFunctionExists.cxx.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-u4SV9g/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_44ffb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44ffb.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_44ffb.dir/CheckFunctionExists.cxx.o -o cmTC_44ffb 
+        gmake[1]: se sale del directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-u4SV9g'
         
       exitCode: 0
   -
@@ -393,8 +393,8 @@ events:
     checks:
       - "Looking for connect"
     directories:
-      source: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-gNtKoo"
-      binary: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-gNtKoo"
+      source: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-RSXNPz"
+      binary: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-RSXNPz"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -404,17 +404,17 @@ events:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-gNtKoo'
+        Change Dir: '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-RSXNPz'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_82c46/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_82c46.dir/build.make CMakeFiles/cmTC_82c46.dir/build
-        gmake[1]: se entra en el directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-gNtKoo'
-        Building CXX object CMakeFiles/cmTC_82c46.dir/CheckFunctionExists.cxx.o
-        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=connect -std=c++17 -o CMakeFiles/cmTC_82c46.dir/CheckFunctionExists.cxx.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-gNtKoo/CheckFunctionExists.cxx
-        Linking CXX executable cmTC_82c46
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82c46.dir/link.txt --verbose=1
-        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_82c46.dir/CheckFunctionExists.cxx.o -o cmTC_82c46 
-        gmake[1]: se sale del directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-gNtKoo'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c7c76/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c7c76.dir/build.make CMakeFiles/cmTC_c7c76.dir/build
+        gmake[1]: se entra en el directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-RSXNPz'
+        Building CXX object CMakeFiles/cmTC_c7c76.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=connect -std=c++17 -o CMakeFiles/cmTC_c7c76.dir/CheckFunctionExists.cxx.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-RSXNPz/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_c7c76
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7c76.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_c7c76.dir/CheckFunctionExists.cxx.o -o cmTC_c7c76 
+        gmake[1]: se sale del directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-RSXNPz'
         
       exitCode: 0
   -
@@ -428,8 +428,8 @@ events:
     checks:
       - "Looking for remove"
     directories:
-      source: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-SWbqH4"
-      binary: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-SWbqH4"
+      source: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-ydjjV5"
+      binary: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-ydjjV5"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -439,17 +439,17 @@ events:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-SWbqH4'
+        Change Dir: '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-ydjjV5'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_aac7e/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_aac7e.dir/build.make CMakeFiles/cmTC_aac7e.dir/build
-        gmake[1]: se entra en el directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-SWbqH4'
-        Building CXX object CMakeFiles/cmTC_aac7e.dir/CheckFunctionExists.cxx.o
-        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=remove -std=c++17 -o CMakeFiles/cmTC_aac7e.dir/CheckFunctionExists.cxx.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-SWbqH4/CheckFunctionExists.cxx
-        Linking CXX executable cmTC_aac7e
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aac7e.dir/link.txt --verbose=1
-        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_aac7e.dir/CheckFunctionExists.cxx.o -o cmTC_aac7e 
-        gmake[1]: se sale del directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-SWbqH4'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f5fa0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f5fa0.dir/build.make CMakeFiles/cmTC_f5fa0.dir/build
+        gmake[1]: se entra en el directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-ydjjV5'
+        Building CXX object CMakeFiles/cmTC_f5fa0.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=remove -std=c++17 -o CMakeFiles/cmTC_f5fa0.dir/CheckFunctionExists.cxx.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-ydjjV5/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_f5fa0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5fa0.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_f5fa0.dir/CheckFunctionExists.cxx.o -o cmTC_f5fa0 
+        gmake[1]: se sale del directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-ydjjV5'
         
       exitCode: 0
   -
@@ -463,8 +463,8 @@ events:
     checks:
       - "Looking for shmat"
     directories:
-      source: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-VwnUK7"
-      binary: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-VwnUK7"
+      source: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-QGWjVR"
+      binary: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-QGWjVR"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -474,17 +474,17 @@ events:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-VwnUK7'
+        Change Dir: '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-QGWjVR'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_41f00/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_41f00.dir/build.make CMakeFiles/cmTC_41f00.dir/build
-        gmake[1]: se entra en el directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-VwnUK7'
-        Building CXX object CMakeFiles/cmTC_41f00.dir/CheckFunctionExists.cxx.o
-        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=shmat -std=c++17 -o CMakeFiles/cmTC_41f00.dir/CheckFunctionExists.cxx.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-VwnUK7/CheckFunctionExists.cxx
-        Linking CXX executable cmTC_41f00
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41f00.dir/link.txt --verbose=1
-        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_41f00.dir/CheckFunctionExists.cxx.o -o cmTC_41f00 
-        gmake[1]: se sale del directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-VwnUK7'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2eb4f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2eb4f.dir/build.make CMakeFiles/cmTC_2eb4f.dir/build
+        gmake[1]: se entra en el directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-QGWjVR'
+        Building CXX object CMakeFiles/cmTC_2eb4f.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=shmat -std=c++17 -o CMakeFiles/cmTC_2eb4f.dir/CheckFunctionExists.cxx.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-QGWjVR/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_2eb4f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2eb4f.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_2eb4f.dir/CheckFunctionExists.cxx.o -o cmTC_2eb4f 
+        gmake[1]: se sale del directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-QGWjVR'
         
       exitCode: 0
   -
@@ -498,8 +498,8 @@ events:
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-5Qm0Av"
-      binary: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-5Qm0Av"
+      source: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-sNeu7x"
+      binary: "/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-sNeu7x"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -509,17 +509,17 @@ events:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-5Qm0Av'
+        Change Dir: '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-sNeu7x'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a0da0/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_a0da0.dir/build.make CMakeFiles/cmTC_a0da0.dir/build
-        gmake[1]: se entra en el directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-5Qm0Av'
-        Building CXX object CMakeFiles/cmTC_a0da0.dir/CheckFunctionExists.cxx.o
-        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -std=c++17 -o CMakeFiles/cmTC_a0da0.dir/CheckFunctionExists.cxx.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-5Qm0Av/CheckFunctionExists.cxx
-        Linking CXX executable cmTC_a0da0
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0da0.dir/link.txt --verbose=1
-        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_a0da0.dir/CheckFunctionExists.cxx.o -o cmTC_a0da0  -lICE 
-        gmake[1]: se sale del directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-5Qm0Av'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c6f29/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c6f29.dir/build.make CMakeFiles/cmTC_c6f29.dir/build
+        gmake[1]: se entra en el directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-sNeu7x'
+        Building CXX object CMakeFiles/cmTC_c6f29.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -std=c++17 -o CMakeFiles/cmTC_c6f29.dir/CheckFunctionExists.cxx.o -c /home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-sNeu7x/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_c6f29
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6f29.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_c6f29.dir/CheckFunctionExists.cxx.o -o cmTC_c6f29  -lICE 
+        gmake[1]: se sale del directorio '/home/daniel/GitHub/X17_ATOMKI_simulation/build/CMakeFiles/CMakeScratch/TryCompile-sNeu7x'
         
       exitCode: 0
 ...
